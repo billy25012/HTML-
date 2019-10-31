@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <!--2x3 table-->
+        <table border="1">  <!--邊框粗細為1-->
+            <tr><td>1</td><td>2</td><td>3</td></tr>  <!--tr為行-->
+            <tr><td>4</td><td>5</td><td>6</td></tr>  <!--td為列-->
+        </table><br>
+        <table border="1">
+            <tr><td>1</td><td colspan="2">2,3</td></tr>  <!--colspan 把指定數的td和在一起-->
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+        </table><br>
+        <table border="1">
+            <tr><td rowspan="2">1,4</td><td>2</td><td>3</td></tr>
+            <tr>                        <td>5</td><td>6</td></tr>
+        </table><br>
+        <table border="1">
+            <tr><td>1</td><td>2</td><td>3</td></tr>
+            <tr><td>4</td><td colspan="2" rowspan="2">5,6,8,9</td></tr>  <!--rowspan 把指定數的tr和在一起-->
+            <tr><td>7</td>                                        </tr>
+       </table><br>
+    </body>
+</html>
